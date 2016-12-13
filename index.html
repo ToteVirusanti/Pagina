@@ -53,14 +53,22 @@
 <h2>
 <a id="instalación" class="anchor" href="#instalaci%C3%B3n" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Instalación</h2>
 
-<p>1.- Descargamos <a href="https://www.python.org/downloads/">Coco2d-x</a> desde la pagina original o si se desea ver <a href="https://github.com/cocos2d/cocos2d-x">Github</a>. Despues de esto descomprimimos y lo guardamos en donde queramos.</p>
-
-<p>2.- Usado los símbolos de sistemas (cmd) procedemos a buscar la carpeta donde guardamos, y ejecutamos "Python setup.py". Tambien pueden ir manualmente usando el explorador y ejecutarla setup.</p>
-
-<p>3.- Una vez que se ejecuto, cerramos la carpeta o el cmd y volvemos a abrir otro cmd, esto es ya que pide la restauración del cmd para utilizar el nuevo comando "cocos". Una vez que ejecutamos cocos, nos pedira una verificacion si es la primera vez que lo ejecutamos, escogemos [y]es y ya esta listo para utilizarce.</p>
+<ol>
+<li><p>Descargamos <a href="https://www.python.org/downloads/">Coco2d-x</a> desde la pagina original o si se desea ver <a href="https://github.com/cocos2d/cocos2d-x">Github</a>. Despues de esto descomprimimos y lo guardamos en donde queramos.</p></li>
+<li><p>Usado los símbolos de sistemas (cmd) procedemos a buscar la carpeta donde guardamos, y ejecutamos "Python setup.py". Tambien pueden ir manualmente usando el explorador y ejecutarla setup.</p></li>
+<li><p>Una vez que se ejecuto, cerramos la carpeta o el cmd y volvemos a abrir otro cmd, esto es ya que pide la restauración del cmd para utilizar el nuevo comando "cocos". Una vez que ejecutamos cocos, nos pedira una verificación si es la primera vez que lo ejecutamos, escogemos [y]es y ya esta listo para utilizarse.</p></li>
+</ol>
 
 <h2>
-<a id="creación-del-primer-programa" class="anchor" href="#creaci%C3%B3n-del-primer-programa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creación del primer programa</h2>
+<a id="creación-del-primer-programa-ejemplo-de-hello-world" class="anchor" href="#creaci%C3%B3n-del-primer-programa-ejemplo-de-hello-world" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creación del primer programa, ejemplo de hello world</h2>
+
+<ol>
+<li><p>Accedemos nuevamente a cmd y ejecutamos "cocos new -l cpp nombreproyecto -d C:..." donde  '-l cpp' se declara que es un archivo de c++ con proyecto llamado 'nombreproyecto', y el '-d C:...' escogemos en donde queremos que este se guarde.
+Si se quiere trabaja con proyectos tipo javascript o lua declaramos 'js' o 'lua' en vez de 'cpp'.</p></li>
+<li><p>Ya que termino de crear el proyecto, abrimos la ubicacion de la carpeta destino con el explorador y nos direjimos a la carpeta "coco2d" y posteriormente a la carpeta "proj.win32", ahi encontramos archivos ejecutables para VisualStudio (VS), y ejecutamos "nombreproyecto.sln"</p></li>
+</ol>
+
+<p>3.- Una vez dentro de VS simplemente usamos el boton "local windows debugger" o simplemente "debugger" (el nombre del botón depende de la version del VS, de la configuracion de), tambien puedes precionar F5, una vez hecho esto confirmamos que queremos ejecutar las clases mencionadas y esperamos a que compile, puede tardar hasta media hora e incluso pediera descargar algunos componentes.</p>
       </section>
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
