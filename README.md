@@ -13,6 +13,7 @@ Tutoriales
 
 - http://cocos2d-x.org/docs/installation/Windows/
 - http://cocos2d-x.org/docs/programmers-guide/sprites/#creating-sprites
+- https://www.raywenderlich.com/95835/cocos2d-x-tutorial-beginners
 - http://www.gamefromscratch.com/post/2014/10/01/Cocos2d-x-Tutorial-Series-Basic-Graphics.aspx
-- https://www.youtube.com/watch?v=c-oGUGBprHI
 - http://www.gamefromscratch.com/post/2014/09/29/Cocos2D-x-Tutorial-Series-Installation-Creating-a-Project-and-Hello-World.aspx
+- https://www.youtube.com/watch?v=c-oGUGBprHI
